@@ -1,0 +1,132 @@
+@font-face {
+    font-family: digitalDream;
+    src: url(digital-7.ttf);
+}
+body{
+    margin: 0 ;
+    background-image: url("Images/equationBackground.jpg");
+}
+header{
+    width: 100vw;
+    height: 25vh;
+    background: #aaa7a6;
+    text-align: center;
+    position: absolute;
+    opacity: .9;
+}
+h1{
+    text-align: center;
+    position: relative;
+    font-size: 7.5em;
+    top: 10%;
+    color: #a2d4fa;
+}
+#mainStage{
+    position: relative;
+    top: 30vh;
+    width: 42vh;
+    height: 70vh;
+    background-color: #aaa7a6;
+    border-radius: 30px;
+    margin: 0 auto
+}
+#displayScreen{
+    position: relative;
+    left: 10%;
+    top: 2%;
+    width: 80%;
+    height: 15%;
+    background-color: #a2d4fa;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 4em;
+    font-family: digitalDream, Monaco, monospace;
+}
+.clear{
+    position: absolute;
+    left: 8%;
+    width: 27%;
+    height: 10%;
+    background-color: #1a8f74;
+    display: inline;
+    border-radius: 35px;
+    color: mintcream;
+    box-shadow: 0 5px #999;
+    font-size: 1.5em;
+}
+.clear:active{
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+    background-color: #0f4737;
+}
+.clear:focus{
+    outline: none;
+}
+.clear:hover{
+    background-color: #0f4737;
+}
+#clearEntry {
+    left: 42%;
+}
+.button {
+    position: absolute;
+    width: 16%;
+    height: 10%;
+    background-color: #000000;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 30%;
+    color: mintcream;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+.button:hover{
+    background-color: darkgray;
+}
+.button:active {
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+.button:focus{
+    outline: none;
+}
+.col1{
+    left:10%;
+}
+.col2{
+    left:30%;
+}
+.col3{
+    left: 50%;
+}
+.col4 {
+    width: 20%;
+    height: 14%;
+    left: 75%;
+    background-color: #cf7b7c;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+.row1{
+    text-align: center;
+    top:20%;
+}
+.row2{
+    top: 35%;
+}
+.row3{
+    top: 50%;
+}
+.row4{
+    top: 65%;
+}
+.row5{
+    top: 80%;
+}
+#addition{
+    height: 29%;
+}
+p{
+    text-align: center;
+    position: relative;
+}
